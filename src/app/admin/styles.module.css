@@ -1,0 +1,56 @@
+
+.container{
+  /* max-width: 1024px; */
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.containerCard {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card {
+  margin: 0 15px;
+  width: 300px;
+  box-shadow: 0 5px 15px #ccc;
+}
+
+.cardHeader{
+  position: relative;
+}
+.cardHeader > img {
+  width: 100%;
+}
+.cardHeader > span{
+  position: absolute;
+  left: 15px;
+  bottom: 10%;
+  font-size: 1.4rem;
+  color: #888888;
+  font-weight: 600;
+}
+
+.cardBody {
+  padding: 8px 15px;
+}
+
+.cardBody > h3{
+  font-size: 1.4rem;
+  color: #888888;
+  font-weight: 600;
+  text-align: center;
+  margin: 15px 0;
+}
+.cardBody > p{
+  color: #ccc;
+  margin: 0px 0px 15px 0;
+  text-align: center;
+}
+.buttonsAction{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttonsAction button {
+  margin: 0 0 0 15px;
+}
